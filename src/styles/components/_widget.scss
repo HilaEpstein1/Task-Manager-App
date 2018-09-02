@@ -1,0 +1,25 @@
+.widget{
+    background: black;
+    margin-bottom: 3.2rem;
+}
+
+.widget__message{
+    border-bottom: 1px solid ligten(black, 10%);
+    color: white;
+    
+    size: 1.8rem;
+    text-align: center;
+
+}
+
+.widget-header{
+    background:rgb(58, 47, 47);
+    color: white;
+    display: flex; // puts all text in one line
+    justify-content: space-between;
+    padding: 1.8rem;
+}
+
+.widget-header__title{
+    margin: 0;
+}
